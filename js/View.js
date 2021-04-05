@@ -1,4 +1,4 @@
-$(document).ready( function (){
+$(document).ready(function () {
     var _view = view.getInstance;
     _view.inicializar();
 });
@@ -6,9 +6,10 @@ $(document).ready( function (){
 var view = (function () {
     var instance;
 
-
     function init() {
-        var inicializar = function () {};
+        var inicializar = function () {
+            console.log("fala cmg");
+        };
 
         return {
             inicializar
@@ -22,6 +23,6 @@ var view = (function () {
             }
 
             return instance;
-        }
-    }
+        },
+    };
 })();
