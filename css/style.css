@@ -3,6 +3,11 @@
     width: 80px;
 }
 
-.imgsLinks {
-    width: 30px;
+.fa-cog {
+    color: black;
+    font-size: 30px;
+}
+
+.img-work {
+    width: 200px;
 }
