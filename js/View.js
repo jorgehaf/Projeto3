@@ -1,18 +1,18 @@
-$(document).ready(function () {
-    var _view = view.getInstance;
-    _view.inicializar();
+window.addEventListener("load", function () {
+    var _view = view.getInstance();
+    _view.start();
 });
 
 var view = (function () {
     var instance;
 
     function init() {
-        var inicializar = function () {
-            console.log("fala cmg");
+        var start = function () {
+            console.log("@jorgehaf");
         };
 
         return {
-            inicializar
+            start
         };
     }
 
