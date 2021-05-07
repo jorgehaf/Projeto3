@@ -1,13 +1,66 @@
-#imgPerfil {
-    height: 120;
-    width: 80px;
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(83, 83, 83);
+    line-height: 1.5;
 }
 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    background-image: url(../imagens/mar.jpg);
+    background-position: left top;
+    background-size: cover;
+    padding: 114px 54px 72px;
+    box-sizing: border-box;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 65%;
+    margin-left: 35%;
+    padding: 114px 54px 72px;
+    box-sizing: border-box;
+}
+
+.header-title {
+    font-size: 28px;
+    line-height: 1.5;
+    color: rgb(223, 208, 198);
+    font-weight: normal;
+    text-align: right;
+}
+
+.icones-rede {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icones {
+    padding-left: 5px;
+}
+
+.imgPerfil {
+    height: 120;
+    width: 80px;
+    border-radius: 50%;
+}
 .fa-cog {
     color: black;
     font-size: 30px;
 }
-
 .img-work {
     width: 200px;
+}
+
+.hr {
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
 }

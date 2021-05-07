@@ -8,7 +8,7 @@ var view = (function () {
 
     function init() {
         var start = function () {
-            console.log("jorgehaf");
+            console.log("@jorgehaf");
         };
 
         return {
